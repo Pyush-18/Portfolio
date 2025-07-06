@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import {Outfit} from "next/font/google";
-import Header from "@/app/components/Header/page"
+import Header from "@/app/Header/page"
 import "./globals.css";
 
 const outfit = Outfit({
