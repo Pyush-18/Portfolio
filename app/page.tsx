@@ -6,14 +6,14 @@ import { Contact2, ProjectorIcon } from "lucide-react";
 function Home() {
   return (
     <div className=" min-h-[calc(100vh-80px)] flex items-center justify-center">
-      <div className="grid grid-cols-1 ">
-        <div className="flex gap-3 items-center ">
+      <div className="grid grid-cols-1 rounded-xl p-4 ">
+        <div className="flex flex-col lg:flex-row gap-3 items-center ">
           <Image
             className="w-32 h-32 object-cover rounded-full"
             src={image}
             alt="photo"
           />
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+          <h1 className="text-4xl lg:text-6xl font-bold tracking-tight">
             Hey, I m{" "}
             <span className="bg-[#8667b8] bg-clip-text text-transparent ">
               Piyush
@@ -25,7 +25,7 @@ function Home() {
             </span>
           </h1>
         </div>
-        <p className="text-xl my-4 max-w-[750px] bg-foreground gradient-text-white">
+        <p className="text-lg lg:text-xl my-4 max-w-[750px] ">
           A <span className="font-bold">fullstack developer</span> able to build
           optimized web applications using modern technologies.
           <br />
