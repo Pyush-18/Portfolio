@@ -22,7 +22,7 @@ const navItems: NavItems[] = [
 
 function Header() {
   return (
-    <div className="w-full h-[80px]  flex items-center px-4  lg:px-40 justify-between">
+    <div className="w-full h-[80px] sticky top-0 backdrop-blur-md z-10 flex items-center px-4  lg:px-40 justify-between">
       <div className="flex items-center gap-10">
         <Link href="/">
           <h2 className="font-bold text-2xl bg-[#8667b8] cursor-pointer bg-clip-text text-transparent ">

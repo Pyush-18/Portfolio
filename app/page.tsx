@@ -3,6 +3,7 @@ import React from "react";
 import image from "@/public/photo.png";
 import { Button } from "@/components/ui/button";
 import { Contact2, ProjectorIcon } from "lucide-react";
+import Link from "next/link";
 function Home() {
   return (
     <div className=" min-h-[calc(100vh-80px)] flex items-center justify-center">
@@ -36,9 +37,11 @@ function Home() {
           <Button className="w-36">
             <Contact2 className="w-7 h-7 " /> Contact
           </Button>
-          <Button variant='secondary' className="w-36">
-            <ProjectorIcon className="w-7 h-7 " /> View Project
-          </Button>
+          <Link href='/projects'>
+            <Button variant="secondary" className="w-36">
+              <ProjectorIcon className="w-7 h-7 " /> View Project
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
