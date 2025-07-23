@@ -1,9 +1,9 @@
 export interface ProData {
-  id: string;
+  id?: string;
   name: string;
-  shortInfo: string;
-  description: string;
+  shortInfo?: string;
+  description?: string;
   previewUrl: string;
-  bgPhoto: string[];
-  techStack: string[];
+  bgPhoto: string;
+  techStack?: string[];
 }

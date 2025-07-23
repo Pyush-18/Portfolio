@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import {Outfit} from "next/font/google";
-import Header from "@/app/Header/page"
+import { Outfit } from "next/font/google";
+import Header from "@/components/Header/page";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const outfit = Outfit({
   subsets: ["latin"],
 });
-
 
 export const metadata: Metadata = {
   title: "Piyush",
@@ -19,13 +19,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <body
-        className={`${outfit} antialiased`}
-        style={{backgroundColor: 'black', color: 'white'}}
+        id="root"
+        className={`${outfit} antialiased `}
+        style={{ backgroundColor: "black", color: "white" }}
       >
-        <Header />
-        {children}
+          <Header />
+          {children}
+          <Toaster />
       </body>
     </html>
   );
