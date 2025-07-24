@@ -37,6 +37,7 @@ function Modal({
           src={`${openProject?.bgPhoto}`}
           alt={"project img"}
           className="object-cover rounded-md"
+          priority={true}
         />
         <p>
           {openProject?.shortInfo}

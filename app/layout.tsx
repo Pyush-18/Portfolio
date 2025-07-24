@@ -6,6 +6,7 @@ import { Toaster } from "sonner";
 
 const outfit = Outfit({
   subsets: ["latin"],
+  display: 'swap'
 });
 
 export const metadata: Metadata = {

@@ -21,6 +21,7 @@ function Home({ scrollYProgress }: { scrollYProgress: MotionValue<number> }) {
             width={200}
             height={200}
             alt="photo"
+            priority={true}
           />
           <h1 className="text-4xl lg:text-6xl font-bold tracking-tight">
             Hey, I &apos;m{" "}

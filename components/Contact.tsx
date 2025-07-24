@@ -58,6 +58,7 @@ function Contact() {
             width={400}
             height={400}
             className="w-full h-auto"
+            priority={true}
           />
         </div>
 

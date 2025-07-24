@@ -54,6 +54,7 @@ function Card() {
                 width={60}
                 height={60}
                 className="object-contain"
+                priority={true}
               />
               <h2 className="text-zinc-300 text-sm">{skill.name}</h2>
             </div>
