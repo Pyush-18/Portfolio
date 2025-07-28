@@ -6,7 +6,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest): Promise<NextResponse | void> {
     const {name, email, message} = await req.json()
-    console.log(name, email, message)
     if(!name || !email || !message){
         NextResponse.json({error: "Missing required fields"}, {status: 400})
     }
