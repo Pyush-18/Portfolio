@@ -24,6 +24,10 @@ const navItems: {
     name: "Contact",
     path: "#contact",
   },
+  {
+    name: "Ai Chat",
+    path: "talk-with-ai",
+  },
 ];
 
 function MobileNavbar() {
@@ -49,11 +53,11 @@ function MobileNavbar() {
         }
     } 
 
-        className="w-[200px] h-[200px] bg-[#C4FF00] text-black rounded-md absolute top-12 p-4 right-6">
+        className="w-[200px] h-[250px] bg-[#C4FF00] text-black rounded-md absolute top-12 p-4 right-6">
         <div className="flex flex-col gap-2">
           {navItems?.map((item, idx) => (
             <Link
-              href={`${item?.path}`}
+              href={`/${item?.path}`}
               key={idx}
               className="flex items-center gap-4"
             >

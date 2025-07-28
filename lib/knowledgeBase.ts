@@ -1,0 +1,15 @@
+export const knowledgeBase = {
+    "who are you": "I am piyush's AI assitant designed to provide information about Piyush Joshi who is the full stack developer. I can tell you about his skills, projects, and professional background.",
+    "what can you do": "I can answer questions about Piyush Joshi's skills (e.g., programming languages, frameworks, tools), his past projects, educational background, and professional interests.",
+    "what are your skills": "My core skills include: Web Development (HTML, CSS, JavaScript, React, Next.js), Backend Development (Node.js, Express.js), Database Management (MongoDB, PostgreSQL), and some basics of Machine Learning. I'm always eager to learn new technologies!",
+    "tell me about your projects": "I have worked on several impactful projects, including:\n\n- Get Placed: A campus placement assistant that helps students prepare and track job applications.\n- Navdurga Rooms: A hotel room showcase platform for Nainital visitors to explore room options before arrival.\n- AI Trip Planner: A smart itinerary generator using AI to suggest destinations and activities based on user preferences.\n\nYou can find more details and links to these projects in the 'Projects' section of this portfolio.",
+    "what are your strengths": "My strengths include problem-solving, quick learning, attention to detail, and a strong passion for creating impactful software solutions. I enjoy tackling complex challenges and continuously improving my craft.",
+    "what are your weaknesses": "One area I'm actively working on is public speaking. While I'm comfortable presenting technical topics to small groups, I'm improving my ability to engage larger audiences and articulate complex ideas more concisely.",
+    "what is your experience": "I have experience in full-stack software development, working on various web and application development projects. My roles have involved everything from front-end UI/UX implementation to backend API design and database management.",
+    "what technologies do you use": "I primarily work with JavaScript, React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and Git.",
+    "where did you study": "I graduated from Amrapali University with a Bachelor of Computer Applications (BCA) degree.",
+    "contact information": "You can reach out to Piyush Joshi via email at piyushjoshi1812@gmail.com or connect on Twitter handle: https://x.com/PiyushJosh95109. github: https://github.com/Pyush-18",
+    "hobbies": "Outside of coding, I enjoy reading tech blogs, playing cricket, exploring new tools and frameworks, and playing the flute. I believe a balanced life fuels creativity and problem-solving.",
+    "career goals": "My long-term career goal is to become a lead software architect, designing scalable and robust systems that make a real impact. I'm passionate about continuous learning and contributing to innovative projects.",
+    "default": "I'm sorry, I don't have specific information on that. Can you please rephrase your question or ask something else about the portfolio owner, Piyush Joshi?"
+};
