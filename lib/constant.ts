@@ -26,7 +26,17 @@ export const projects = [
         previewUrl: "https://navdurgarooms-app.onrender.com",
         bgPhoto: '/img3.svg',
         techStack: ["React", "Node.js", "Express.js", "MongoDB"]
+    },
+    {
+        id: "askify-ai-notebook",
+        name: "Askify - AI-Powered Research Notebook",
+        shortInfo: "A full-stack conversational AI-powered research notebook.",
+        description: "Askify is a full-stack application that allows users to chat with AI using unified context from uploaded PDFs, websites, or YouTube videos. It combines content from various sources into a single knowledge base, provides instant summaries, and supports structured data extraction.",
+        previewUrl: "https://askify-three.vercel.app/",
+        bgPhoto: "/askify.png",
+        techStack: ["Next.js", "Tailwind CSS", "Groq-SDK", "LangChain", "QdrantDB", "Docker"]
     }
+
 
 ]
 
