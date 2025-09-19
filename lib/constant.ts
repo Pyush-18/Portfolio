@@ -35,7 +35,17 @@ export const projects = [
         previewUrl: "https://askify-three.vercel.app/",
         bgPhoto: "/askify.png",
         techStack: ["Next.js", "Tailwind CSS", "Groq-SDK", "LangChain", "QdrantDB", "Docker"]
+    },
+    {
+        id: "persona-ai",
+        name: "PersonaAI",
+        shortInfo: "Chat instantly with tailored AI personas.",
+        description: "PersonaAI unlocks the power of tailored conversations. It provides your perfect AI companion, ready to assist, guide, and create instantly.",
+        previewUrl: "https://persona-talk-livid.vercel.app/",
+        bgPhoto: "/persona.png",
+        techStack: ["Next.js", "Tailwind CSS", "Groq-SDK"]
     }
+
 
 
 ]
@@ -62,4 +72,7 @@ export const skills = [
   { name: "ReactRouter", src: "/reactrouter.svg" },
   { name: "Git", src: "/git.svg" },
   { name: "Github", src: "/github.svg" },
+  { name: "LangChain", src: "/langchain.png" },
+  { name: "OpenAI", src: "/openai.png" },
+  { name: "Groq", src: "/groq.svg" },
 ];
