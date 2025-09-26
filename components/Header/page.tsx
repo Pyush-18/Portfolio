@@ -1,6 +1,13 @@
 "use client";
 
-import { FolderKanban, House, Menu, User } from "lucide-react";
+import {
+  FolderKanban,
+  GithubIcon,
+  House,
+  Linkedin,
+  Menu,
+  User,
+} from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import MobileNavbar from "../MobileNavbar";
@@ -57,6 +64,22 @@ function Header() {
               </Link>
             </div>
           ))}
+          <div className="lg:flex items-center gap-3 border-l border-zinc-700 pl-4 hidden">
+            <Link
+              className="p-2 rounded-md backdrop-blur-md bg-zinc-800 hover:bg-zinc-900 duration-200 transition-colors"
+              href={"https://www.linkedin.com/in/piyushdeverse"}
+              target="_blank"
+            >
+              <Linkedin size={15} />
+            </Link>
+            <Link
+              className="p-2 rounded-md backdrop-blur-md bg-zinc-800 hover:bg-zinc-900 duration-200 transition-colors"
+              href={"https://github.com/Pyush-18"}
+              target="_blank"
+            >
+              <GithubIcon size={15} />
+            </Link>
+          </div>
         </div>
       </div>
 
@@ -64,8 +87,6 @@ function Header() {
         <Menu onClick={() => setShowNav((prev) => !prev)} />
         <AnimatePresence>{showNav && <MobileNavbar />}</AnimatePresence>
       </div>
-
-      
     </div>
   );
 }
